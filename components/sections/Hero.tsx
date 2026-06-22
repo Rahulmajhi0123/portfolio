@@ -173,7 +173,7 @@ export function Hero() {
               />
 
               <video
-                className="robot-video pointer-events-none absolute bottom-0 left-[-160px] z-0 hidden h-auto w-[240px] lg:block xl:left-[-175px] xl:w-[260px]"
+                className="robot-video pointer-events-none absolute bottom-0 z-0 h-auto w-[150px] left-[-108px] sm:w-[170px] sm:left-[-122px] md:w-[200px] md:left-[-150px] lg:bottom-12 lg:w-[240px] lg:left-[-160px] xl:bottom-14 xl:w-[260px] xl:left-[-175px]"
                 src="/robot.webm"
                 autoPlay
                 loop
