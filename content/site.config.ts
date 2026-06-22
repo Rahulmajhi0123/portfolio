@@ -1,0 +1,40 @@
+export const siteConfig = {
+  title: "Rahul Majhi - Software Engineer II | Backend & Generative AI",
+  description:
+    "Software Engineer II building production-grade distributed systems and Generative-AI-powered backends. 2+ years at Amdocs shipping Java/Spring microservices, Kubernetes tooling, and production GenAI/NLP systems - building RepoSage, a RAG platform for codebase intelligence.",
+  url: "https://rahulmajhi.dev",
+  ogImage: "/og-image.png",
+  keywords: [
+    "Rahul Majhi",
+    "Software Engineer II",
+    "Backend Engineer",
+    "AI Engineer",
+    "Generative AI",
+    "GenAI Engineer",
+    "LLM Engineer",
+    "RAG",
+    "Agentic AI",
+    "Spring AI",
+    "Vector Search",
+    "pgvector",
+    "Distributed Systems",
+    "Microservices",
+    "Spring Boot",
+    "Java",
+    "Kubernetes",
+    "AWS",
+    "Platform Engineering",
+    "Portfolio",
+  ],
+  nav: [
+    { label: "About", href: "#about" },
+    { label: "Edge", href: "#edge" },
+    { label: "Education", href: "#education" },
+    { label: "Experience", href: "#experience" },
+    { label: "Projects", href: "#projects" },
+    { label: "Skills", href: "#skills" },
+    { label: "Contact", href: "#contact" },
+  ],
+} as const;
+
+export type SiteConfig = typeof siteConfig;
